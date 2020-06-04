@@ -6,7 +6,14 @@ namespace Polimorfismo1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           System.Console.WriteLine("Mensal:");
+           
+           Mensal m = new Mensal();
+           m.mostrarRelatorio();
+
+           Anual a = new Anual();
+           a.mostrarRelatorio();
+        
         }
     }
 }
